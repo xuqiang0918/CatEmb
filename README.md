@@ -1,7 +1,7 @@
 # CatEmb
 [![Ubuntu](https://img.shields.io/badge/Ubuntu-orange)](https://ubuntu.com/) [![Python 3.12](https://img.shields.io/badge/python-3.12-blue)](https://www.python.org/) [![PyTorch 2.6.0+cu124](https://img.shields.io/badge/PyTorch-2.6.0%2Bcu124-red)](https://pytorch.org/) [![PyG 2.7.0](https://img.shields.io/badge/torch__geometric-2.7.0-green)](https://pytorch-geometric.readthedocs.io/) [![RDKit](https://img.shields.io/badge/Chemoinformatics-RDKit-blueviolet)](https://www.rdkit.org/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Official implementation of *"Stereoelectronic-aware catalyst embeddings from 2D graphs via 2D-3D multi-view alignment"*. The corresponding paper is under review. Preprint version is available at [ChemRxiv](https://chemrxiv.org/doi/full/10.26434/chemrxiv.15000279/v1).
+Official implementation of *"Stereoelectronic-aware catalyst embeddings from 2D graphs via 2D-3D multi-view alignment"*. The correpsonding paper is available at [*Digital Discovery*](https://doi.org/10.1039/D6DD00089D).
 
 CatEmb​ is a novel, stereoelectronic-aware molecular descriptor that generates compact, fixed-length embeddings directly from 2D molecular graphs (e.g. SMILES). It bridges the gap between readily accessible 2D structural inputs and the decisive 3D stereoelectronic properties essential for data-driven catalyst discovery.
 
@@ -128,18 +128,18 @@ conda run -n catemb python scripts/benchmark_embedding_dims.py
 
 ## Citation
 
-Li-Cheng Xu, Fenglei Cao, Yuan Qi. Stereoelectronic-aware catalyst embeddings from 2D graphs via 2D-3D multi-view alignment. *ChemRxiv* **2026** DOI: 10.26434/chemrxiv.15000279/v1
+Li-Cheng Xu, Fenglei Cao, Yuan Qi. Stereoelectronic-aware catalyst embeddings from 2D graphs via 2D-3D multi-view alignment. *Digit. Discov.* **2026** DOI: 10.1039/D6DD00089D
 ```
 @article{xu_2026_catemb,
-    author = {Li-Cheng Xu  and Fenglei Cao  and Yuan Qi },
+    author = {Xu, Li-Cheng and Cao, Fenglei and Qi, Yuan},
     title = {Stereoelectronic-aware catalyst embeddings from 2D graphs via 2D-3D multi-view alignment},
-    journal = {ChemRxiv},
-    volume = {2026},
-    number = {0222},
-    pages = {},
+    journal = {Digital Discovery},
     year = {2026},
-    doi = {10.26434/chemrxiv.15000279/v1},
-    URL = {https://chemrxiv.org/doi/abs/10.26434/chemrxiv.15000279/v1},
-    eprint = {https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15000279/v1}
+    month = {07},
+    issn = {2635-098X},
+    doi = {10.1039/D6DD00089D},
+    url = {https://doi.org/10.1039/D6DD00089D},
+    eprint = {https://pubs.rsc.org/dd/article-pdf/doi/10.1039/D6DD00089D/13359243/d6dd00089d.pdf},
 }
+
 ```
